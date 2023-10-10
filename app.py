@@ -37,8 +37,8 @@ def main():
         option = st.selectbox(
             "What would you like to upload?",
             ("Image", "Video"),
-            index=None,
-            placeholder="Select contact method...",
+            
+            
         )
         if option == 'Image':
 
